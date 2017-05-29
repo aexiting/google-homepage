@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+#container {
+	position: absolute; 
+	top: 0 ;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 600px;
+	height: 300px;
+	margin: auto;
+
+}
+#navbar
+{
+	float: right;
+}
+li{
+	display: inline;
+}
+#bottom-navbar{
+	position: absolute;
+	height: 35px;
+	width: 1000px;
+	border: none;
+	background-color: rgba(0,0,0,20%);
+	bottom: 0;
+	left: 0;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #efefef;
+  text-align: left;
+  box-shadow: 0px 500px 0px 500px #efefef;
+}
+.right{
+	right: 0;
+}
+#search{
+	width: 500px;
+}
+
+.left{
+	left: 0;
+}
